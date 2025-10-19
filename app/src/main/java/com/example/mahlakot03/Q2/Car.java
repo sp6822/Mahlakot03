@@ -10,7 +10,6 @@ class Car extends Vehicle {
     public void stop() {
         System.out.println("Car slows down and stops safely.");
     }
-
     @Override
     public void accelerate() {
         System.out.println("Car speeds up on the road.");
