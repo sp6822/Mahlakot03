@@ -4,7 +4,6 @@ class Animal {
     public void makeSound() {
         System.out.println("Some generic animal sound");
     }
-
     public void move() {
         System.out.println("The animal moves in some way");
     }
@@ -80,32 +79,4 @@ class Fish extends Animal {
         System.out.println("The fish eats algae and small insects");
     }
 }
-public class MainActivity {
-    public static void main(String[] args) {
 
-        Animal dog = new Dog();
-        Animal cat = new Cat();
-        Animal bird = new Bird();
-        Animal fish = new Fish();
-
-        System.out.println(" Dog ");
-        dog.makeSound();
-        dog.move();
-        dog.eat();
-
-        System.out.println(" Cat ");
-        cat.makeSound();
-        cat.move();
-        cat.eat();
-
-        System.out.println(" Bird ");
-        bird.makeSound();
-        bird.move();
-        bird.eat();
-
-        System.out.println(" Fish ");
-        fish.makeSound();
-        fish.move();
-        fish.eat();
-    }
-}
