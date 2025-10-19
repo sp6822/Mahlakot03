@@ -48,7 +48,6 @@ class Cat extends Animal {
 }
 
 class Bird extends Animal {
-
     @Override
     public void makeSound() {
         System.out.println("Chirp chirp!");
@@ -58,14 +57,12 @@ class Bird extends Animal {
     public void move() {
         System.out.println("The bird flies in the sky");
     }
-
     @Override
     public void eat() {
         System.out.println("The bird eats seeds");
     }
 }
 class Fish extends Animal {
-
     @Override
     public void makeSound() {
         System.out.println("Blub blub!");
